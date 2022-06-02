@@ -52,7 +52,7 @@ T.B.A.
 - The system will be able to see a list of clients in that are set to receive a delivery on a specified date.
 - The system will be able to change the specified date of a delivery list.
 - The system will be able to order the clients of a delivery day by the most optimal delivery time.
-- The system will be able to see all the details of a client, such as contact information, delivery address, notes, bottles possessed and subscriptions.
+- The system will be able to see all the details of a client, such as contact information, delivery address, notes, bottles possessed, subscriptions and images.
 - The system will be able to synchronize the clients details with Google People.
 - The system will be able to open a Google Maps route to the clients address.
 - The system will be able to add a new client.
