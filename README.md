@@ -7,7 +7,7 @@
     1. [Introduction](#introduction)
     2. [Purpose](#purpose)
     3. [Intended Use](#intended-use)
-    4. [Participants and Users](#participants-and-users)
+    4. [Users](#users)
     5. [Scope](#scope)
     6. [Definitions and Acronyms](#definitions-and-acronyms)
 
@@ -30,9 +30,9 @@ The purpose of this project is to improve their daily routes by reducing deliver
 
 ### Intended Use
 
-This will be primarily used by the driver to complete orders and to follow-up on the next client. As a secondary user, we will have administration that will be entering the orders.
+This will be primarily used by the driver to complete orders and to follow-up on the next customer. As a secondary user, we will have administration that will be entering the orders.
 
-### Participants and Users
+### Users
 
 - **Driver**: Company worker that will execute the deliveries.
 
@@ -49,24 +49,24 @@ T.B.A.
 ### Functional Requirements
 
 - The system will be able to login users.
-- The system will be able to see a list of clients in that are set to receive a delivery on a specified date.
+- The system will be able to see a list of customers in that are set to receive a delivery on a specified date.
 - The system will be able to change the specified date of a delivery list.
-- The system will be able to order the clients of a delivery day by the most optimal delivery time.
-- The system will be able to see all the details of a client, such as contact information, delivery address, notes, bottles possessed, subscriptions and images.
-- The system will be able to synchronize the clients details with Google People.
-- The system will be able to open a Google Maps route to the clients address.
-- The system will be able to add a new client.
-- The system will be able to remove a client.
-- The system will be able to update a client.
+- The system will be able to order the customers of a delivery day by the most optimal delivery time.
+- The system will be able to see all the details of a customer, such as contact information, delivery address, notes, bottles possessed, subscriptions and images.
+- The system will be able to synchronize the customers details with Google People.
+- The system will be able to open a Google Maps route to the customers address.
+- The system will be able to add a new customer.
+- The system will be able to remove a customer.
+- The system will be able to update a customer.
 - The system will be able to remember the login credentials.
-- The system will be able to add multiple clients to a planned delivery.
-- The system will be able to remove multiple clients of a delivery list.
+- The system will be able to add multiple customers to a planned delivery.
+- The system will be able to remove multiple customers of a delivery list.
 - The system will notify the user on any insert, update, delete or error.
 - The system will validate user input.
 - The system will show a loading spinner when fetching data.
 - The system will have sidebar navigation.
 - The system will be able to keep track of the total of bottles per customer.
-- The system will allow the driver to complete a delivery by swiping the client to the left.
+- The system will allow the driver to complete a delivery by swiping the customer to the left.
   - The system will allow the driver to specify the amount of bottles returned, as default it will be the amount given.
   - The system will allow the driver to change the amount of bottles given.
   - The system will have plus and minus icon to update the inputs.
@@ -75,18 +75,20 @@ T.B.A.
 - The system will keep track of the total of bottles in the warehouse.
 - The system will notify about needing refills for bottles.
 - The system will authorize actions by roles.
-- The system will allow the user to add broken bottles to a client.
-- The system will allow the user to add lost bottles to a client.
-- The system will show when the rent is due for a client on a delivery list.
-- The system will be able to update the delivery date of a client by swiping right.
-- The system will be able to delete the delivery of a client by swiping right.
-- The system will ask the user to enter the amount of bottles for the delivery of a client, or list of clients in a one by one order.
+- The system will allow the user to add broken bottles to a customer.
+- The system will allow the user to add lost bottles to a customer.
+- The system will show when the rent is due for a customer on a delivery list.
+- The system will be able to update the delivery date of a customer by swiping right.
+- The system will be able to delete the delivery of a customer by swiping right.
+- The system will ask the user to enter the amount of bottles for the delivery of a customer, or list of customers in a one by one order.
 - The system will ask the user to enter the delivery date.
 - The system will always show the default settings on creating a delivery.
-- The system will be able to configure the default settings of a client, such as amount of water ordered, route day, weekly/monthly delivery and position in route.
+- The system will be able to configure the default settings of a customer, such as amount of water ordered, route day, weekly/monthly delivery and position in route.
 - The system will be able to create a delivery of any product.
-- The system will show in the delivery list each product that is meant to be given to the client.
+- The system will show in the delivery list each product that is meant to be given to the customer.
 - The system will show the total amount do of the delivery.
+- The system will show the info of the van and the total products it holds that is asigned to the driver or any other van available.
+- The system will show the products held in the warehouse.
 
 ### External Interface Requirements
 
